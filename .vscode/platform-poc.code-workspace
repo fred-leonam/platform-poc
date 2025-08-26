@@ -1,0 +1,71 @@
+{
+  "folders": [
+    { "path": "." },
+
+    { "path": "apps/backstage-app" },
+
+    { "path": "packages/app" },
+    { "path": "packages/backend" },
+
+    { "path": "plugins/perf-ui" },
+
+    { "path": "infra" }
+  ],
+  "settings": {
+    // Formatting & linting
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "eslint.enable": true,
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "yaml", "json"],
+    "prettier.requireConfig": true,
+
+    "search.exclude": {
+      "**/dist": true,
+      "**/build": true,
+      "**/coverage": true,
+      "**/.yarn": true,
+      "**/.turbo": true,
+      "**/.cache": true,
+      "**/node_modules": true
+    },
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/*.log": true
+    },
+
+    "yaml.validate": true,
+
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // Terminal defaults
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.inheritEnv": true
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "rbbit.typescript-hero",
+      "christian-kohler.path-intellisense",
+      "steoates.autoimport",
+      "usernamehw.errorlens",
+      "msjsdiag.vscode-react-native",
+      "styled-components.vscode-styled-components",
+      "dsznajder.es7-react-js-snippets",
+      "redhat.vscode-yaml",
+      "ms-azuretools.vscode-docker",
+      "ms-kubernetes-tools.vscode-kubernetes-tools",
+      "humao.rest-client",
+      "eamodio.gitlens",
+      "wayou.vscode-todo-highlight",
+      "alefragnani.bookmarks",
+      "alefragnani.project-manager"
+    ]
+  }
+}
+
+
