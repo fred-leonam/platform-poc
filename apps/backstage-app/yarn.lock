@@ -13286,6 +13286,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/knex@npm:^0.16.1":
+  version: 0.16.1
+  resolution: "@types/knex@npm:0.16.1"
+  dependencies:
+    knex: "npm:*"
+  checksum: 10c0/3b0b396b311a2c3cd4af9d9be946bb9f3445b2b8702f387bac2b40cbf3a2394930453ef665ce4752a21292b43b327efbb40e0b8d5ad9459110e18259ab864df4
+  languageName: node
+  linkType: hard
+
 "@types/long@npm:^4.0.0":
   version: 4.0.2
   resolution: "@types/long@npm:4.0.2"
@@ -15220,10 +15229,13 @@ __metadata:
     "@backstage/plugin-techdocs-backend": "npm:^2.0.5"
     "@internal/plugin-perf-backend": "workspace:^"
     "@kubernetes/client-node": "npm:^1.3.0"
+    "@types/knex": "npm:^0.16.1"
     app: "link:../app"
     better-sqlite3: "npm:^12.0.0"
+    knex: "npm:^3.1.0"
     node-gyp: "npm:^10.0.0"
     pg: "npm:^8.11.3"
+    ts-node: "npm:^10.9.2"
     zod: "npm:^4.1.3"
   languageName: unknown
   linkType: soft
@@ -23362,7 +23374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"knex@npm:3, knex@npm:^3.0.0":
+"knex@npm:*, knex@npm:3, knex@npm:^3.0.0, knex@npm:^3.1.0":
   version: 3.1.0
   resolution: "knex@npm:3.1.0"
   dependencies:
@@ -31567,7 +31579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.9.1":
+"ts-node@npm:^10.9.1, ts-node@npm:^10.9.2":
   version: 10.9.2
   resolution: "ts-node@npm:10.9.2"
   dependencies:
